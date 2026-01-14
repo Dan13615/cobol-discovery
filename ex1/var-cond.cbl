@@ -8,7 +8,7 @@
        PROCEDURE DIVISION.
            DISPLAY "Write a number between 0 and 999 : ".
            ACCEPT WS-NB.
-     
+
            IF WS-NB >= 100
                 DISPLAY "Large"
            ELSE
